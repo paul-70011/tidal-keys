@@ -1,0 +1,26 @@
+{
+	"manifest_version": 2,
+	"name": "Tidal-keys",
+	"version": "1",
+	"background": {
+		"scripts": [
+			"background.js"
+		],
+		"persistent": true
+	},
+	"browser_action": {
+		"default_title": "Tidal-keys"
+	},
+	"permissions": [
+		"https://listen.tidal.com/"
+	],
+	"commands": {
+		"play": {
+			"suggested_key": {
+				"default": "Ctrl+Shift+Y",
+				"mac": "Command+Shift+Y"
+			},
+			"description": "Play/Pause"
+		}
+	}
+}
