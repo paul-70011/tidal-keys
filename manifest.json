@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
 	"name": "Tidal-keys",
-	"version": "1",
+	"version": "1.2",
 	"background": {
 		"scripts": [
 			"background.js"
