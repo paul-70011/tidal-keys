@@ -1,0 +1,1 @@
+document.getElementsByClassName("whiteIconButton--2PHu1")[0].click();

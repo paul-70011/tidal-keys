@@ -16,11 +16,13 @@
 	],
 	"commands": {
 		"play": {
-			"suggested_key": {
-				"default": "Ctrl+Shift+Y",
-				"mac": "Command+Shift+Y"
-			},
 			"description": "Play/Pause"
+		},
+		"previous": {
+			"description": "Previous"
+		},
+		"next": {
+			"description": "Next"
 		}
 	}
 }
