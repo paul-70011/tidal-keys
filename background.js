@@ -1,3 +1,4 @@
+//tidal-keys by Paul Steinebach
 function play(){
     chrome.tabs.query({url:['https://listen.tidal.com/*']}, function(tabsArray) {
         chrome.tabs.executeScript(tabsArray[0]['id'], {
